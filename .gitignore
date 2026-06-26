@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyTorch model weights — 屏蔽所有权重，仅保留 MCFU-net TN3K fold0 最佳模型供测试
+*.pth
+*.pkl
+*.npz
+weights/
+!weights/MCFU-net/
+!weights/MCFU-net/TN3K/
+!weights/MCFU-net/TN3K/fold0/
+!weights/MCFU-net/TN3K/fold0/model_150_best.pth
+
+# 保留空文件夹结构，不传内容
+data/**
+!data/.gitkeep
+test_one_mask/**
+!test_one_mask/.gitkeep
+result/**
+!result/.gitkeep
+!result/curve/.gitkeep
+!result/loss/.gitkeep
+!result/metrics/.gitkeep
+!result/pre_mask/.gitkeep
+
+# 完全不传
+weights_AutoDL/
+Ablation/
+wtconv_variants/
+frontend/
+MCFU_net_Standalone_App/
+
+*.lnk
