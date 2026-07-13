@@ -1,4 +1,4 @@
-# MCFU-net 甲状腺超声图像分割项目
+# MCFU-net for Thyroid ultrasound image segmentation
 
 [![Paper](https://img.shields.io/badge/Paper-Information_2025-2ea44f?logo=mdpi)](./MCFU-net_paper.pdf)
 [![DOI](https://img.shields.io/badge/DOI-10.3390/info16111013-blue)](https://doi.org/10.3390/info16111013)
