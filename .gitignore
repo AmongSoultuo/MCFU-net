@@ -57,10 +57,13 @@ desktop.ini
 *.pth
 *.pkl
 *.npz
-weights/
+weights/*
 !weights/MCFU-net/
+weights/MCFU-net/*
 !weights/MCFU-net/TN3K/
+weights/MCFU-net/TN3K/*
 !weights/MCFU-net/TN3K/fold0/
+weights/MCFU-net/TN3K/fold0/*
 !weights/MCFU-net/TN3K/fold0/model_150_best.pth
 
 # 保留空文件夹结构，不传内容
